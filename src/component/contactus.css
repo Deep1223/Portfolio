@@ -1,0 +1,57 @@
+.contactdetDiv{
+    text-decoration: underline;
+}
+
+.row  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .row {
+    flex-direction: column;
+  }
+}
+
+.contact-title {
+  width: fit-content;
+  padding: 5px 15px;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 20px 0px;
+}
+
+.info-margin {
+  margin-bottom: 0px;
+}
+
+.form-border {
+  border: 2px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.address-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-form-text {
+  color: var(--font);
+}
+
+.custom-form-text:focus {
+  color: var(--font);
+}

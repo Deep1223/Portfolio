@@ -1,0 +1,125 @@
+.BodyContainerDiv {
+    padding-top: 3%;
+    padding-left: 11%;
+}
+
+.portfoDiv {
+    padding: 10%;
+}
+
+.btnDiv {
+    border: none;
+    background-color: #ddf0fc;
+    padding: 10px 15px;
+    color: #4db2f0;
+}
+
+.faiconDiv {
+    padding: 3%;
+}
+
+.iconDiv {
+    padding-left: 74%;
+    padding-top: 10%;
+}
+
+.bodynameDiv {
+    color: #73c2f3;
+}
+
+.bodydesDiv {
+    color: #0f7abc;
+}
+
+.aboutbgDiv {
+    background-color: #faf5ff;
+}
+
+
+.action__btns .mainbtnDiv {
+    /* font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none; 
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer; */
+
+    background-color: #a855f7; 
+    color: rgb(255, 255, 255); 
+    padding: 5px 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px; 
+    border-radius: 3px;
+    cursor: pointer; 
+    text-decoration:none;   
+}
+
+.downloadresumeDiv {
+    background-color: #a855f7;
+    color: #ffffff;
+}
+
+.downloadresumeDiv:hover {
+    background-color: #9333ea;
+}
+
+.aboutfleximgdiv {
+    width: 35%;
+}
+
+.aboutflexDiv {
+    width: 65%;
+}
+
+@media (max-width: 991px) {
+    .aboutflexDiv {
+        width: 100%;
+    }
+
+    .aboutfleximgdiv {
+        width: 60%;
+    }
+}
+
+.about-title {
+    width: fit-content;
+    padding: 5px 15px;
+}
+
+.skillimgset { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillimgdiv {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.imgboxdiv {
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.about-img-title-div {
+    margin-top: -15px;
+}
+
+.about-card-div {
+    margin: 20px 0px;
+}
+
+.about-education-div {
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.about-font-set {
+    font-size: 12px;
+}

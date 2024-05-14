@@ -1,0 +1,77 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --border: #cccccc;
+    --shadow: #999999;
+    --bg: #f2f2f2;
+    --custom-bg: #333333;
+    --custom-card-bg: #374151;
+    --custom-card-color: #1f2937;
+    --custom-page-bg: #111827;
+    --custom-font-blue: #2b789a;
+    --bg-secondary: #e6e6e6;
+    --bs-body-bg: #e6e6e6;
+    --hover: #cccccc;
+    --bs-dark-rgb: #000000;
+    --bs-light-rgb: #000000;
+    --bs-black-rgb: #000000;
+    --bs-gray-750: #6c757d;
+    --font: #000000;
+    --font-secondary: #6c757d;
+    --bs-secondary-color: #6c757d;
+    --bs-border-color-translucent: #dcdcdc;
+    --bs-navbar-toggler-border-color: #dcdcdc;
+    --filter-toggle: 1;
+}
+
+.dark {
+    --black: #ffffff;
+    --white: #000000;
+    --border: #333333;
+    --shadow: #666666;
+    --bg: #1a1a1a;
+    --custom-bg: #333333;
+    --custom-card-bg: #374151;
+    --custom-card-color: #1f2937;
+    --custom-page-bg: #111827;
+    --custom-font-blue: #2b789a;
+    --bg-secondary: #333333;
+    --bs-body-bg: #333333;
+    --hover: #999999;
+    --bs-dark-rgb: #ffffff;
+    --bs-light-rgb: #ffffff;
+    --bs-black-rgb: #ffffff;
+    --bs-gray-750: #6c757d;
+    --font: #ffffff;
+    --font-secondary: #6c757d;
+    --bs-secondary-color: #6c757d;
+    --bs-border-color-translucent: #e6e6e6;
+    --bs-navbar-toggler-border-color: #e6e6e6;
+    --filter-toggle: 1;
+}
+
+.light {
+    --black: #000000;
+    --white: #ffffff;
+    --border: #cccccc;
+    --shadow: #999999;
+    --bg: #f2f2f2;
+    --custom-bg: #ffffff;
+    --custom-card-bg: #f9f9fb;
+    --custom-card-color: #ffffff;
+    --custom-page-bg: #fafafb;
+    --custom-font-blue: #2b789a;
+    --bg-secondary: #e6e6e6;
+    --bs-body-bg: #e6e6e6;
+    --hover: #cccccc;
+    --bs-dark-rgb: #000000;
+    --bs-light-rgb: #000000;
+    --bs-black-rgb: #000000;
+    --bs-gray-750: #6c757d;
+    --font: #000000;
+    --font-secondary: #6c757d;
+    --bs-secondary-color: #6c757d;
+    --bs-border-color-translucent: #dcdcdc;
+    --bs-navbar-toggler-border-color: #dcdcdc;
+    --filter-toggle: 0;
+}

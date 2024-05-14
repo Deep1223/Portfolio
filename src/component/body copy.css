@@ -1,0 +1,39 @@
+.BodyContainerDiv {
+    padding-top: 3%;
+    padding-left: 11%;
+}
+
+.portfoDiv {
+    padding: 10%;
+}
+
+.btnDiv {
+    border: none;
+    background-color: #ddf0fc;
+    padding: 10px 15px;
+    color: #4db2f0;
+}
+
+.faiconDiv {
+    padding: 3%;
+}
+
+.iconDiv {
+    padding-left: 74%;
+    padding-top: 10%;
+}
+
+.bodynameDiv {
+    color: #73c2f3;
+}
+
+.bodydesDiv {
+    color: #0f7abc;
+}
+
+
+
+
+@media (max-width: 991px) {
+   
+}

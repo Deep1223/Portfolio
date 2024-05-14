@@ -1,0 +1,79 @@
+.containerDiv {
+    padding-left: 6%;
+}
+
+.AppheaderDiv {
+    background-color: var(--custom-bg);
+}
+
+a.navbar-brand.navbarpadDiv.navbarDiv {
+    /* color: white; */
+    color: var(--font);
+}
+
+.navbarpadDiv {
+    padding-left: 6%;
+}
+
+a.nav-link.navfontDiv {
+    /* color: rgb(255, 255, 255); */
+    color: var(--font);
+}
+
+.portbgDiv {
+    background-color: #faf5ff;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+
+}
+
+
+.card-margin-div {
+    margin: 40px 0px;
+}
+
+.portfolio-img-div {
+    padding: 50px;
+}
+
+.portfolio-desc-div {
+    padding: 50px;
+    color: var(--font);
+}
+
+.portfolio-title {
+    width: fit-content;
+    padding: 5px 15px;
+}
+
+.work-margin-div {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+button.btn.custom-btn-bg {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.custom-nav-item-hover:hover {
+    background-color: var(--hover);
+    color: var(--font);
+}
+
+.custom-nav-item-hover.active .navfontDiv {
+    color: var(--custom-font-blue);
+}

@@ -1,0 +1,153 @@
+.custom-card-bg {
+    background-color: var(--custom-card-bg);
+}
+
+.custom-card-color {
+    background-color: var(--custom-card-color);
+}
+
+.custom-card-font {
+    color: var(--font);
+}
+
+.custom-page-bg {
+    background-color: var(--custom-page-bg);
+}
+
+.custom-card-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-card-width {
+    width: 50%;
+}
+
+.custom-card-border-left {
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+
+.custom-card-border-right {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+}
+
+.custom-card-flex-column {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-card-width-33 {
+    width: 33.33%;
+}
+
+.custom-card-width-40 {
+    width: 40%;
+}
+
+.custom-card-width-60 {
+    width: 60%;
+}
+
+.custom-width-20-50 {
+    width: 20%;
+}
+
+.custom-width-20-100 {
+    width: 20%;
+}
+
+.custom-width-60-100 {
+    width: 60%;
+}
+
+.custom-card-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .custom-card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom-card-width {
+        width: 100%;
+    }
+
+    .custom-card-order-log-1 {
+        order: 1;
+    }
+
+    .custom-card-order-log-2 {
+        order: 2;
+    }
+
+    .custom-card-order-log-3 {
+        order: 3;
+    }
+
+    .custom-card-order-log-1.custom-card-border-left {
+        border-top-left-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .custom-card-order-log-2.custom-card-border-left {
+        border-bottom-right-radius: 0.375rem;
+        border-bottom-left-radius: 0.375rem;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+
+    .custom-card-order-log-1.custom-card-border-right {
+        border-top-left-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .custom-card-order-log-2.custom-card-border-right {
+        border-bottom-right-radius: 0.375rem;
+        border-bottom-left-radius: 0.375rem;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+
+    .custom-card-flex-column {
+        flex-direction: column;
+    }
+
+    .custom-card-width-33 {
+        width: 100%;
+    }
+
+    .custom-card-width-40 {
+        width: 100%;
+    }
+    
+    .custom-card-width-60 {
+        width: 100%;
+    }
+
+    .custom-width-20-50 {
+        width: 50%;
+    }
+
+    .custom-width-20-100 {
+        width: 100%;
+    }
+
+    .custom-card-flex-between {
+        flex-direction: column;
+    }
+
+    .custom-align-center-991 {
+        display: flex;
+    }
+}
