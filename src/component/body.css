@@ -92,6 +92,7 @@
 .skillimgset { 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skillimgdiv {
@@ -122,4 +123,24 @@
 
 .about-font-set {
     font-size: 12px;
+}
+
+.bs-dot.h_green {
+    background: #00a186;
+    box-shadow: 0 0 15px rgb(25, 135, 84);
+    border: 1px solid #00a186 !important;
+}
+.bs-dot {
+    margin: 5px;
+    height: 5px;
+    width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--font-secondary);
+    box-shadow: 0 0 15px rgb(108, 117, 125);
+    border: 1px solid var(--font-secondary) !important;
+    position: relative;
 }

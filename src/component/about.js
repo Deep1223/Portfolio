@@ -268,7 +268,7 @@ function About() {
                             <div className="py-4 px-4 custom-card-flex-between gap-4">
                                 <div className="custom-width-20-100 custom-card-order-log-1">
                                     <img src="./image/instance-it.png" alt="instance-it" class="img-fluid mx-auto d-block" style={{ width: '50%' }}></img>
-                                    </div>
+                                </div>
                                 <div className="custom-card-width-60 custom-card-order-log-3">
                                     <p><strong>Associate PHP Developer</strong></p>
                                     <ul style={{ listStyle: 'disc' }}>
@@ -302,6 +302,64 @@ function About() {
                         </div>
                     </div>
                     <div>
+                        <div class="card about-card-div border-0 shadow">
+                            <div className="custom-card-flex">
+                                <div className="custom-card-bg custom-card-width-40 custom-card-order-log-1 custom-card-border-left">
+                                    <div className='portfolio-img-div'>
+                                        <img src="./image/react_hakerrank.png" alt="react_hakerrank" style={{ width: '100%', borderRadius: '10px' }}></img>
+                                    </div>
+                                </div>
+                                <div className="custom-card-color custom-card-width-60 custom-card-order-log-2 custom-card-border-right">
+                                    <div className='portfolio-desc-div'>
+                                        <p className='d-flex justify-content-between'><strong className="h4">React (Basic)</strong><span>May 2024 - May 2024</span></p>
+                                        <p>
+                                        In this React (Basic) course, I've successfully built and managed React components, effectively utilizing props and 
+                                        state to pass and manage data within the application. Additionally, I've demonstrated proficiency in implementing event 
+                                        handling and utilizing React Hooks for managing component logic and side effects, showcasing a strong foundation in 
+                                        React development fundamentals.
+                                        </p>
+                                        <p className='d-flex flex-wrap gap-2'>
+                                            <div className="bg-secondary text-white portfolio-title rounded">
+                                                React
+                                            </div>
+                                            <div className="bg-secondary text-white portfolio-title rounded">
+                                                Bootstrap
+                                            </div>
+                                            <div className="bg-secondary text-white portfolio-title rounded">
+                                                Html
+                                            </div>
+                                            <div className="bg-secondary text-white portfolio-title rounded">
+                                                Css
+                                            </div>
+                                        </p>
+                                        <a href='./image/react_hakerrank.png' target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card about-card-div border-0 shadow">
+                            <div className="custom-card-flex">
+                                <div className="custom-card-bg custom-card-width-40 custom-card-order-log-1 custom-card-border-left">
+                                    <div className='portfolio-img-div'>
+                                        <img src="./image/deep_chatgpt.png" alt="deep_chatgpt" style={{ width: '100%', borderRadius: '10px' }}></img>
+                                    </div>
+                                </div>
+                                <div className="custom-card-color custom-card-width-60 custom-card-order-log-2 custom-card-border-right">
+                                    <div className='portfolio-desc-div'>
+                                        <p className='d-flex justify-content-between'><strong className="h4">ChatGpt For Beginners</strong><span>June 2023 - June 2023</span></p>
+                                        <p>
+                                            In the "ChatGPT for Beginners" course at Great Learning Corporate Academy, I achieved proficiency in fundamental concepts of
+                                            chatbot development, including natural language processing techniques and conversational interface design. With a comprehensive
+                                            understanding of chatbot deployment and maintenance best practices, I successfully completed practical projects demonstrating
+                                            my ability to create effective and engaging chatbot solutions. Additionally, I acquired expertise in leveraging advanced
+                                            features for personalized user experiences, ensuring seamless integration with enterprise systems. This course equipped me
+                                            with the skills necessary to innovate and excel in the dynamic field of conversational AI.
+                                        </p>
+                                        <a href='./image/deep_chatgpt.png' target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card about-card-div border-0 shadow">
                             <div className="custom-card-flex">
                                 <div className="custom-card-bg custom-card-width-40 custom-card-order-log-1 custom-card-border-left">
@@ -342,33 +400,7 @@ function About() {
                                                 React
                                             </div>
                                         </p>
-                                        <a href='#' data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card about-card-div border-0 shadow">
-                            <div className="custom-card-flex">
-                                <div className="custom-card-bg custom-card-width-40 custom-card-order-log-1 custom-card-border-left">
-                                    <div className='portfolio-img-div'>
-                                        <img src="./image/about.jpg" alt="about" style={{ width: '100%', borderRadius: '10px' }}></img>
-                                    </div>
-                                </div>
-                                <div className="custom-card-color custom-card-width-60 custom-card-order-log-2 custom-card-border-right">
-                                    <div className='portfolio-desc-div'>
-                                        <p className='d-flex justify-content-between'><strong className="h4">Course on Computer Concepts (CCC)</strong><span>April 2019 - July 2019</span></p>
-                                        <p>
-                                            The car-rent React app simplifies the vehicle rental process, allowing users to browse,
-                                            select, and book cars online. With features like detailed car listings, reservation
-                                            management, and secure payment processing, it offers a convenient platform for users
-                                            to rent vehicles for their travel needs.
-                                        </p>
-                                        <p className='d-flex flex-wrap gap-2'>
-                                            <div className="bg-secondary text-white portfolio-title rounded">
-                                                React
-                                            </div>
-                                        </p>
-                                        <a href='#' data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                        <a href='./image/web-devlopment-certificate-complete.png' target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                     </div>
                                 </div>
                             </div>
@@ -394,7 +426,7 @@ function About() {
                                                 React
                                             </div>
                                         </p>
-                                        <a href='#' data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                        <a href='./image/about.jpg' target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                     </div>
                                 </div>
                             </div>
@@ -420,7 +452,7 @@ function About() {
                                                 React
                                             </div>
                                         </p>
-                                        <a href='#' data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                        <a href='./image/about.jpg' target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                     </div>
                                 </div>
                             </div>
@@ -479,6 +511,32 @@ function About() {
                                             </ul>
                                         </p>
                                         <a href='./image/responsive-certificate.png' target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card about-card-div border-0 shadow">
+                            <div className="custom-card-flex">
+                                <div className="custom-card-bg custom-card-width-40 custom-card-order-log-1 custom-card-border-left">
+                                    <div className='portfolio-img-div'>
+                                        <img src="./image/about.jpg" alt="about" style={{ width: '100%', borderRadius: '10px' }}></img>
+                                    </div>
+                                </div>
+                                <div className="custom-card-color custom-card-width-60 custom-card-order-log-2 custom-card-border-right">
+                                    <div className='portfolio-desc-div'>
+                                        <p className='d-flex justify-content-between'><strong className="h4">Course on Computer Concepts (CCC)</strong><span>April 2019 - July 2019</span></p>
+                                        <p>
+                                            The car-rent React app simplifies the vehicle rental process, allowing users to browse,
+                                            select, and book cars online. With features like detailed car listings, reservation
+                                            management, and secure payment processing, it offers a convenient platform for users
+                                            to rent vehicles for their travel needs.
+                                        </p>
+                                        <p className='d-flex flex-wrap gap-2'>
+                                            <div className="bg-secondary text-white portfolio-title rounded">
+                                                Word
+                                            </div>
+                                        </p>
+                                        <a href='./image/about.jpg' target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Open Certificate"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                     </div>
                                 </div>
                             </div>

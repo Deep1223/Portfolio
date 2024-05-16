@@ -42,7 +42,8 @@ function Body() {
                             </p>
                             <p style={{ paddingTop: "20px" }}>
                                 <div className="py-1 d-flex gap-2"><span><i class="bi bi-geo-alt"></i></span><span>Surat, India</span></div>
-                                <div className="py-1 d-flex gap-2"><span><i class="bi bi-circle-fill text-success"></i></span><span>Available for new job</span></div>
+                                {/* <div className="py-1 d-flex gap-2"><span><i class="bi bi-circle-fill text-success"></i></span><span>Available for new job</span></div> */}
+                                <div className="py-1 d-flex gap-2"><span class="bs-dot h_green align-self-center"></span><span>Available for new job</span></div>
                             </p>
                         </div>
                     </div>
