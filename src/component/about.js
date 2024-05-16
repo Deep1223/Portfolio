@@ -16,7 +16,7 @@ function About() {
                 <div className="py-4">
                     <div className="gap-4 custom-card-flex" style={{ width: '100%' }}>
                         <div className="d-flex align-items-center aboutfleximgdiv">
-                            <img src="./image/about.jpg" style={{ width: '100%' }}></img>
+                            <img src="./image/about.png" style={{ width: '100%' }}></img>
                         </div>
                         <div className="aboutflexDiv">
                             <p>

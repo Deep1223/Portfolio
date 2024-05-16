@@ -74,6 +74,11 @@ button.btn.custom-btn-bg {
     color: var(--font);
 }
 
+.custom-nav-item-hover:hover.active {
+    background-color: transparent;
+    color: var(--font);
+}
+
 .custom-nav-item-hover.active .navfontDiv {
     color: var(--custom-font-blue);
 }
