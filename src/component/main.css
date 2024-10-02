@@ -72,6 +72,7 @@ button.btn.custom-btn-bg {
 .custom-nav-item-hover:hover {
     background-color: var(--hover);
     color: var(--font);
+    border-radius: 5px;
 }
 
 .custom-nav-item-hover:hover.active {

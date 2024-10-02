@@ -67,3 +67,34 @@ ul {
 .custom-icon-color {
 	color: var(--black);
 }
+
+.footer-hover-link a {
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.footer-hover-link a:hover {
+	color: var(--custom-font-blue) !important;
+}
+
+.footer-hover-link a:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 100%;
+	bottom: -5px;
+	background: var(--custom-font-blue);
+	height: 2px;
+	transition: left 0.3s ease-out, right 0.3s ease-out;
+}
+
+.footer-hover-link a:hover:after,
+.footer-hover-link a:focus:after,
+.footer-hover-link a:active:after {
+	right: 0;
+}
+
+.footer-hover:hover {
+	color: #82caff !important;
+}

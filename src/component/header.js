@@ -10,7 +10,7 @@ function Header({ toggleTheme, theme }) {
     const [activeNavItem, setActiveNavItem] = useState(null);
 
     const handledownloadresume = () => {
-        const pdfUrl = './image/deep.pdf';
+        const pdfUrl = './image/resume_deep_dungarani_2024.pdf';
         const anchor = document.createElement('a');
         anchor.href = pdfUrl;
         anchor.download = 'deep_resume.pdf';
@@ -41,7 +41,7 @@ function Header({ toggleTheme, theme }) {
     return (
         <nav className={`navbar ${theme === "light" ? "" : "navbar-dark"} navbar-expand-lg fixed-top navbarScroll AppheaderDiv`}>
             <div className="container">
-                <a className="navbar-brand navbarpadDiv navbarDiv" onClick={() => navigate('/body')}>Portfolio</a>
+                <a className="navbar-brand navbarpadDiv navbarDiv" onClick={() => navigate('/body')}>Portfoliedge</a>
                 <button className="navbar-toggler" type="button" onClick={handleNavbarToggle}>
                     <span className="navbar-toggler-icon"></span>
                 </button>

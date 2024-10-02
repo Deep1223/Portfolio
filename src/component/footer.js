@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faEnvelope, faMobile } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import './footer.css';
+import './common.css';
 
 function Footer() {
     const nevigate = useNavigate();
@@ -25,26 +26,26 @@ function Footer() {
                         <div class="footer-col">
                             <h4>Companey</h4>
                             {/* <ul> */}
-                            <p className="footerfontDiv"><a onClick={() => nevigate('/')}>Home</a></p>
-                            <p className="footerfontDiv"><a onClick={() => nevigate('/about')}>About</a></p>
-                            <p className="footerfontDiv"><a onClick={() => nevigate('/portfolio')}>Portfolio</a></p>
-                            <p className="footerfontDiv"><a onClick={() => nevigate('/contactus')}>Contact</a></p>
+                            <p className="footerfontDiv footer-hover-link"><a onClick={() => nevigate('/')}>Home</a></p>
+                            <p className="footerfontDiv footer-hover-link"><a onClick={() => nevigate('/about')}>About</a></p>
+                            <p className="footerfontDiv footer-hover-link"><a onClick={() => nevigate('/portfolio')}>Portfolio</a></p>
+                            <p className="footerfontDiv footer-hover-link"><a onClick={() => nevigate('/contactus')}>Contact</a></p>
                             {/* </ul> */}
                         </div>
                         <div class="footer-col">
                             <h4>Contact</h4>
                             {/* <hr /> */}
                             <p className="footerfontDiv"><FontAwesomeIcon icon={faHome} /> Surat, Gujarat, India</p>
-                            <p className="footerfontDiv"><FontAwesomeIcon icon={faEnvelope} /> deep.k.dungarani@gmail.com</p>
-                            <p className="footerfontDiv"><FontAwesomeIcon icon={faMobile} /> +91 90160 65685</p>
+                            <p className="footerfontDiv footer-hover"><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:deep.k.dungarani@gmail.com">deep.k.dungarani@gmail.com</a></p>
+                            <p className="footerfontDiv footer-hover"><FontAwesomeIcon icon={faMobile} /> <a href="tel:+919016065685">+91 90160 65685</a></p>
                         </div>
                         <div class="footer-col">
                             <h4>follow us</h4>
                             <div class="social-links">
-                                <a href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook} size="2x" className="custom-icon-color" /></a>
-                                <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" className="custom-icon-color" /></a>
-                                <a href="https://instagram.com/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="2x" className="custom-icon-color" /></a>
-                                <a href="https://linkedin.com/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" className="custom-icon-color" /></a>
+                                <a href="https://www.facebook.com/share/CX9rsnqcW9qhtss2/?mibextid=qi2Omg" target="_blank"><FontAwesomeIcon icon={faFacebook} size="2x" className="custom-icon-color footer-hover" /></a>
+                                {/* <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" className="custom-icon-color" /></a> */}
+                                <a href="https://www.instagram.com/deep_dungarani_23?igsh=dnRybmNzajdmcHo1" target="_blank"><FontAwesomeIcon icon={faInstagram} size="2x" className="custom-icon-color footer-hover" /></a>
+                                <a href="https://www.linkedin.com/in/deep-dungarani-4b036a194/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" className="custom-icon-color footer-hover" /></a>
                             </div>
                         </div>
                     </div>

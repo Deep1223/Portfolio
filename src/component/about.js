@@ -261,7 +261,7 @@ function About() {
                                             using React JS, thereby enhancing the overall user experience.</li>
                                     </ul>
                                 </div>
-                                <div className="custom-width-20-50 custom-card-order-log-2">June 2023 - Present</div>
+                                <div className="custom-width-20-50 custom-card-order-log-2">February 2024 - Present</div>
                             </div>
                         </div>
                         <div class="card about-card-div custom-card-color border-0 shadow custom-card-font">
@@ -284,7 +284,7 @@ function About() {
                                         <li>Problem-Solving and Innovation</li>
                                     </ul>
                                 </div>
-                                <div className="custom-width-20-50 custom-card-order-log-2">December 2022 - May 2023</div>
+                                <div className="custom-width-20-50 custom-card-order-log-2">December 2022 - January 2024</div>
                             </div>
                         </div>
                     </div>
