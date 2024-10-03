@@ -1,5 +1,4 @@
-import react, { useState } from "react";
-import logo from './logo.svg';
+import { useState } from "react";
 import './App.css';
 import './component/theme.css';
 import Header from './component/header';
@@ -7,8 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Body from './component/body';
-import BodyCss from './component/body.css';
-import { Route, BrowserRouter as Router, Routes, useLocation } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import About from './component/about';
 import Footer from './component/footer';
 import Contactus from './component/contactus';

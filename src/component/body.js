@@ -1,9 +1,7 @@
 import React from "react";
 import './body.css';
-import { useNavigate } from "react-router-dom";
 
 function Body() {
-    const navigate = useNavigate();
 
     // const handledownloadresume = () => {
     //     const pdfUrl = './image/deep.pdf';

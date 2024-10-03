@@ -4,10 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faMobile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import emailjs from "@emailjs/browser";
 import Swal from 'sweetalert2';
-import { useNavigate } from "react-router-dom";
 
 function Contact() {
-    const navigate = useNavigate();
     const form = useRef();
 
     const sendEmail = (e) => {
